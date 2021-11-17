@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card:hover{
+    color: rgb(92, 166, 226);
+    cursor: pointer; 
+}
+
+.h-opcoes {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
