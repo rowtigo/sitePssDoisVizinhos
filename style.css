@@ -2,10 +2,12 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 
 .card {
     margin: 10px;
+    text-align: center;
 }
 
 .card:hover{
@@ -17,4 +19,14 @@ body {
     width: 100%;
     justify-content: center;
     display: flex;
+    flex-direction: column;
 }
+
+.mapa {
+    max-width: 200px;
+    max-height: 250px;
+}
+ a {
+     text-decoration: none;
+     color: black;
+ }
